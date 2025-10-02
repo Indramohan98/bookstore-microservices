@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Migrations (optional – if you don’t want to track Alembic versions, remove this if needed)
+alembic/versions/*.py
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.tmp
+*.temp
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+*.out
+
+# Test / Coverage
+.coverage
+.cache/
+.pytest_cache/
+htmlcov/
+.tox/
+.mypy_cache/
